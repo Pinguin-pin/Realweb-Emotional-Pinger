@@ -615,4 +615,6 @@ label {
 }
 
 
-
+.test_selection {
+    border-radius: 24px;
+}
