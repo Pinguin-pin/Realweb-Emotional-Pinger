@@ -153,7 +153,7 @@ html {
     align-items: center;
     padding: 18px 10px;
     gap: 14px;
-    height: 127px;
+    height: fit-content;
     background: linear-gradient(180deg, #FF9C58 0%, #FFE764 100%);
     border-radius: 16px;
 }
@@ -182,6 +182,7 @@ html {
     background: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 12px;
+    margin-top: 21px;
 }
 
 .metric_font {
@@ -204,6 +205,7 @@ html {
     height: 127px;
     background: linear-gradient(96.19deg, #FF7A51 0%, #FFBABA 105.9%);
     border-radius: 16px;
+    height: fit-content;
 }
 
 .support {
@@ -216,6 +218,7 @@ html {
     height: 127px;
     background: linear-gradient(96.19deg, #7622FF 0%, #8398FF 105.9%);
     border-radius: 16px;
+    height: fit-content;
 }
 
 .analyze_mood {
@@ -278,7 +281,7 @@ html {
 }
 
 .mood_timeline {
-    background-image: url("chart_back.svg");
+    background-image: url("chart_new.svg");
     border-radius: 16px; 
     height: 151px;
     padding-left: 16px;
@@ -444,6 +447,7 @@ html {
     gap: 16px;
     width: 82px;
     height: 45px;
+    margin-top: -15px;
 }
 
 .smile_cont {
@@ -708,4 +712,35 @@ html {
     border-radius: 16px;
     align-self: stretch;
     margin-top: 24px;
+}
+
+.back {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 26px;
+    height: 26px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    justify-content: center;
+}
+
+.company_name {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #37151C;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 56px;
+    margin-right: 56px;
 }
