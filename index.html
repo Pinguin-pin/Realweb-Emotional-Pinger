@@ -6,6 +6,8 @@
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>Realweb</title>
      <link rel="stylesheet" href="css/style.css">
+     <script src="https://telegram.org/js/telegram-web-app.js"></script>
+     <script src="app.js"></script>
 </head>
 <body>
      <div class="daynumber">
@@ -14,7 +16,8 @@
      </div>
 
      <div class="emoji">
-            <div class="nice">
+        <a href="./check-in.html">
+            <div class="nice block" onclick="Emo_func('nice')">
                 <div class="checkbox">
                                        <label>
                                         <input type="checkbox" class="check-box">
@@ -24,7 +27,8 @@
                       </div>       
                 <img class="smile" src="css\Grinning face.svg">      
             </div>
-        <div class="good">
+        </a>
+        <div class="good block" onclick="Emo_func('good')">
             <div class="checkbox">
                                    <label>
                                     <input type="checkbox" class="check-box-good">
@@ -35,7 +39,7 @@
             <img class="smile" src="css\good.svg">      
         </div>
 
-        <div class="ok">
+        <div class="ok block" onclick="Emo_func('ok')">
             <div class="checkbox">
                                    <label>
                                     <input type="checkbox" class="check-box-ok">
@@ -46,7 +50,7 @@
             <img class="smile" src="css\ok.svg">      
         </div>
         
-        <div class="badly">
+        <div class="badly block" onclick="Emo_func('badly')">
             <div class="checkbox">
                                    <label>
                                     <input type="checkbox" class="check-box-badly">
@@ -57,7 +61,7 @@
             <img class="smile" src="css\badly.svg">      
         </div>
 
-        <div class="terrible">
+        <div class="terrible block" onclick="Emo_func('terrible')">
             <div class="checkbox">
                                    <label>
                                     <input type="checkbox" class="check-box-terrible">
@@ -71,7 +75,7 @@
             </div>    
         </div>
      </div>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-	<script src="app.js"></script>
+    
+	
 </body>
 </html>
