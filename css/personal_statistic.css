@@ -42,7 +42,7 @@ html {
     align-items: center;
     padding: 0px;
     gap: 12px;
-    height: 190px;
+    height: fit-content;
 }
 
 .ava {
@@ -74,6 +74,7 @@ html {
     height: 108px !important;
     background-image: url("string backgr.png");
     height: fit-content;
+    margin-top: 34px;
 }
 
 .days_cont {
@@ -551,11 +552,11 @@ html {
     align-items: center;
     padding: 10px 12px;
     gap: 14px;
-    width: 326px;
     height: 50px;
     background: linear-gradient(96.19deg, #1035FA 0%, #10B1FA 105.9%);
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
+    align-self: stretch;
 
 }
 
@@ -743,4 +744,29 @@ html {
     margin-bottom: 0px;
     margin-left: 56px;
     margin-right: 56px;
+    height: fit-content;
+}
+
+.check-in-profile {
+    display: block;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 18px 10px;
+    gap: 14px;
+    height: fit-content;
+    background: linear-gradient(180deg, #FF9C58 0%, #FFE764 100%);
+    border-radius: 16px;
+    height: 100px;
+}
+
+.font_fix_profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 82px;
+    height: 45px;
+    margin-top: 0px;
 }
